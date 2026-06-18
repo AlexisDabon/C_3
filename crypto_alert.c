@@ -8,8 +8,9 @@ int main () {
 		printf("saisissez le prix %d", i + 1);
 		scanf("%f", &prix[i]); 
 	}
-
-
+	
+	float moy = calculer_moyenne(prix, 3);
+	
 }
 
 
