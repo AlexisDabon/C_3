@@ -5,7 +5,7 @@ int main () {
 	
 	float prix [3];
 	for (int i = 0; i < 3; i++) {
-		printf("saisissez le prix %d", i + 1);
+		printf("saisissez le prix : %d", i + 1);
 		scanf("%f", &prix[i]); 
 	}
 	
@@ -15,12 +15,18 @@ int main () {
 
 	if (moyenne >= 100) {
 		printf("ALERT \n");
+	
 	}
+
 	else {
 		printf("Situation stable \n");
 	}
 	
 	return 0;
 }
+	float calculer_moyenne(float p[], int size) {
+    	return (p[0] + p[1] + p[2]) / 3;
+	}
+
 
 
