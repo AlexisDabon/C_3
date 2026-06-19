@@ -9,8 +9,18 @@ int main () {
 		scanf("%f", &prix[i]); 
 	}
 	
-	float moy = calculer_moyenne(prix, 3);
+	float moyenne = calculer_moyenne(prix, 3);
+
+	printf("moyenne : %.2f \n", moyenne);
+
+	if (moyenne >= 100) {
+		printf("ALERT \n");
+	}
+	else {
+		printf("Situation stable \n");
+	}
 	
+	return 0;
 }
 
 
