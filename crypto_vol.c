@@ -11,5 +11,8 @@ int main () {
 	printf("saisissez le prix %d : \n", i + 1);
 	scanf("%f", &prix [i]);
 	}
+	
+	analyser_vol (prix, &ecart, &alert);
 
+	printf("variations : %.2f \n", ecart);	
 }
