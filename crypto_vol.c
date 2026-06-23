@@ -14,5 +14,14 @@ int main () {
 	
 	analyser_vol (prix, &ecart, &alert);
 
-	printf("variations : %.2f \n", ecart);	
+	printf("variations : %.2f \n", ecart);
+
+	if (alert == 1) {
+		printf("Alert vol ! \n");
+	}
+	else { 
+		printf("marché calme \n");
+	}
+
+	return 0;
 }
