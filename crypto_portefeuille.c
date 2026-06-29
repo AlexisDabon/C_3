@@ -13,3 +13,10 @@ int main() {
 
 	return 0;
 }
+
+void afficher_portefeuille(struct Crypto t[], int taille) {
+	for (int i = 0; i < taille; i++) {
+		printf("Crypto ID %d, Prix %.2f \n", t[i].id, t[i].prix);
+	}
+}
+
