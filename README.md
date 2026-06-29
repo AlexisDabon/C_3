@@ -8,3 +8,5 @@ I am learning arrays and pointers with this series of short programs for beginne
 * **Exercise 2:** crypto/vol second exercise calculates the variation between 3 numbers. If this variation is over 15, it sends an alert to the user.
 
 * **Exercise 3:** crypto/id to work with structures and functions, updating and printing the new price of a cryptocurrency using pointers.
+
+* **Exercise 4:** This program stores multiple crypto assets inside an array of structures. It passes the array to a function that uses a loop to display each asset.
