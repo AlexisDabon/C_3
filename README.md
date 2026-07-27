@@ -1,16 +1,23 @@
-# EXERCISES BY ORDER IN THIS C FOLDER
+# LOGIC SERIES OF C PROGRAMING
 
-I am moving to the next level with this new series of C programming exercises.
-I am learning arrays and pointers with this series of short programs for beginners.
+* Compilation: gcc -Wall -Wextra -Werror -pedantic -std=c11 
 
-## Exercise 1:
-* **crypto/alert** program takes 3 numbers and prints their average. It sends an "ALERT" message if the average is over the limit, otherwise it says the situation is stable.
+* These C exercises cover various concepts across different levels of C programming.
 
-## Exercise 2: 
-* **crypto/vol** second exercise calculates the variation between 3 numbers. If this variation is over 15, it sends an alert to the user.
+* These mini-programs are iterative and are saved through regular 'git commit' commands.
 
-## Exercise 3:
-* **crypto/id** to work with structures and functions, updating and printing the new price of a cryptocurrency using pointers.
+## PROGRAMS
 
-## Exercise 4:
-* **This program** stores multiple crypto assets inside an array of structures. It passes the array to a function that uses a loop to display each asset.
+### I: crypto alert 
+
+Implemented a modular price processing program in C that stores input values inside a 'float' array using a 'for' loop and 'scanf'. It delegates calculation to a custom function that iterates over array elements to compute an average, triggering a threshold-based conditional alert when values equal or exceed 100.
+
+### II: crypto id
+
+Developed a cryptocurrency data management program in C using a custom 'struct' to store asset attributes including an ID and price.
+
+### III: crypto vol
+
+Developed a market volatility monitoring tool in C that records price trends in a 'float' array via a 'for' loop and 'scanf'. It passes array data alongside pointers ('float *', 'int *').
+
+
