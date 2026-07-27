@@ -1,9 +1,9 @@
 #include <stdio.h> 
 
 float calculer_moyenne (float p[], int size);
-int main () {
-	
+int main(void) {
 	float prix [3];
+
 	for (int i = 0; i < 3; i++) {
 		printf("saisissez le prix %d : ", i + 1);
 		scanf("%f", &prix[i]); 
@@ -15,7 +15,6 @@ int main () {
 
 	if (moyenne >= 100) {
 		printf("ALERT \n");
-	
 	}
 
 	else {
@@ -25,8 +24,11 @@ int main () {
 	return 0;
 }
 	float calculer_moyenne(float p[], int size) {
-    	return (p[0] + p[1] + p[2]) / 3;
+    	float somme = 0.0f;
+	for (int i = 0; i < size; i++) {
+		somme += p[i];
 	}
 
+	return somme / size;
 
-
+}
