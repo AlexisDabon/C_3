@@ -1,0 +1,11 @@
+# Exécutables de la série C_3
+01_crypto_alert
+02_crypto_id
+03_crypto_vol
+04_crypto_portefeuille
+
+# Fichiers binaires et temporaires
+*.o
+*.swp
+*~
+.DS_Store
