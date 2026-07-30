@@ -18,14 +18,11 @@ int main () {
 
 	if (alert == 1) {
 		printf("Alert vol ! \n");
-	}
-
-	else { 
+	} else { 
 		printf("marché calme \n");
 	}
 
 	return 0;
-
 }
 	
 	void analyser_vol (float p[], float *diff, int *alt) {
@@ -34,13 +31,9 @@ int main () {
 	if (*diff < 0) {
 		*diff = *diff * -1;
 	}
-	
 	if ( *diff > 15.0) {
 		*alt = 1;
-	}
-
-	else {
+	} else {
 		*alt = 0;
 	}
-
 }
